@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+.venv/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+.env
+experience-data/

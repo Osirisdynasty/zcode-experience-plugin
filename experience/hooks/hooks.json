@@ -1,0 +1,19 @@
+{
+  "description": "Experience system hooks: session-end settlement check (fail-open, local only).",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "process",
+            "command": "python",
+            "args": [
+              "${ZCODE_PLUGIN_ROOT}/scripts/settle_check.py"
+            ],
+            "timeoutMs": 15000
+          }
+        ]
+      }
+    ]
+  }
+}

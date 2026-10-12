@@ -1,0 +1,8 @@
+{
+  "name": "experience",
+  "version": "0.1.0",
+  "description": "经验复用闭环：开工调取/收尾提取/归档补检/账查",
+  "license": "MIT",
+  "commands": "commands",
+  "skills": "skills"
+}
